@@ -1,0 +1,164 @@
+<div class="animated bounceInLeft">
+	
+<!-- Header -->
+	<div class="modules-statics-about-view">
+	    <div class="module-header">
+	        <h1>My Resume</h1>
+	        <p>Under Construction</p>
+	    </div>
+	</div>
+
+	<!-- *** WORK EXPERIENCE *** -->
+	<md-card id="work_experience">
+
+		<md-card-content>
+	    
+		    <div class="panel-heading">
+		        <h2>Work Experience</h2>
+		    </div>
+
+		    <!-- Swell Marketing -->
+		    <md-card>
+			    <md-toolbar class="md-theme-light">
+			    	<h2 class="md-toolbar-tools">
+			    		<span>Senior Developer</span>
+			    		<span flex></span>
+			    		<span>12/2014 - 8/2015</span></span>              
+			    	</h2>
+			    </md-toolbar>
+			    <md-card-content>
+				    <md-card-header>
+				    	<md-card-header-text class="md-title">Swell Marketing LLC | Huntington Beach, CA</md-card-header-text>
+				    </md-card-header>
+				    <p>
+				    	Swell Marketing is a branch off of the world famous SurfLine.com Corporation. In this case, Tyler Collins, owner and board member of Surfline.com created the domain papaganja.com, a medical cannabis services company, and my primary role focused on that project as well as integrating technology I provided into the surfline.com website.
+				    </p>            
+		            <ul>
+		                <li data-ng-repeat="item in swell">{{item.desc}}</li>
+		            </ul>
+			    </md-card-content>         
+		    </md-card><!-- #swellmarketing -->
+
+		    <!-- Soap Creative Group -->
+			<md-card>
+			    <md-toolbar class="md-theme-light">
+			    	<h2 class="md-toolbar-tools">
+			    		<span>Senior Front-End Web Developer</span>
+			    		<span flex></span>
+			    		<span>2014</span>              
+			    	</h2>
+			    </md-toolbar>
+			    <md-card-content>
+				    <md-card-header>
+				    	<md-card-header-text class="md-title">Soap Creative Group | Anaheim, CA</md-card-header-text>
+				    </md-card-header>
+				    <p>
+				    	Soap Creative Group is a creative digital online marketing & advertising company located in Southern California.
+				    </p>       
+		            <ul>
+		                <li data-ng-repeat="item in soap">{{item.desc}}</li>
+		            </ul>
+			    </md-card-content>         
+		    </md-card><!-- # -->
+
+		    <!-- CitizenHawk, Inc. -->
+			<md-card>
+			    <md-toolbar class="md-theme-light">
+			    	<h2 class="md-toolbar-tools">
+			    		<span>Software Engineer</span>
+			    		<span flex></span>
+			    		<span>2010 - 2013</span>
+			    	</h2>
+			    </md-toolbar>
+			    <md-card-content>
+				    <md-card-header>
+				    	<md-card-header-text class="md-title">CitizenHawk, Inc. | Aliso Viejo, CA</md-card-header-text>
+				    </md-card-header>
+				    <p>
+				    	CitizenHawk is one of the world’s top providers of online reputation and brand protection. They have reclaimed millions of dollars in lost revenue for their clients, which include some of the world’s best known companies and brands. CitizenHawk’s success is based on an array of factors, including proprietary, patent-pending technology; an in-depth understanding of the Internet, domain management and e-commerce; superior client service featuring dedicated account management; and a flexible, consultative approach to each client engagement.
+				    </p>				           
+	            	<ul>
+		                <li data-ng-repeat="item in citizenhawk">{{item.desc}}</li>
+		            </ul>
+			    </md-card-content>         
+		    </md-card><!-- # -->
+
+		    <!-- Bollinger International -->
+			<md-card>
+			    <md-toolbar class="md-theme-light">
+			    	<h2 class="md-toolbar-tools">
+			    		<span>Owner/President/Senior Developer/Chief Architect</span>
+			    		<span flex></span>
+			    		<span>January 2003 - present</span>
+			    	</h2>
+			    </md-toolbar>
+
+			    <md-card-content>
+
+				    <md-card-header>
+				    	<md-card-header-text class="md-title">Bollinger International | Orange, CA</md-card-header-text>
+				    </md-card-header>
+
+				    <p>
+				    	Bollinger International is my personal projects resource domain consisting of a remote 
+		                LAMP/MEAN that I have been running since 2003. It hosts many diverse and legitimate websites 
+		                from revenue generating e-Commerce presences, Affiliate Network presences, to custom API's my 
+		                sites consume, to data visualization showcases. The most impressive technically is 
+		                chaytonfalke.com and it is also the longest running project for 12 years as of 2015.
+				    </p>				           
+	            
+		            <ul>
+		                <li data-ng-repeat="item in bi">{{item.desc}}</li>
+		            </ul>
+			    </md-card-content>         
+		    </md-card><!-- #Bollinger International -->	    
+	    </md-card-content>
+	</md-card><!-- #work_experience -->
+
+	<!-- *** EDUCATION *** -->
+	<section>	     
+	    <h2>Education</h2>
+	    <div layout="row" layout-align="space-around start">
+	    	<!-- ProveIt! Testing -->
+		    <md-card flex="20">
+		    	<img class="md-card-image" src="images/provit.jpeg" alt="ProveIt Assessments">
+		    	<md-card-content>
+		    		<h2>ProveIt!&reg; Assessments</h2>
+		    		<p>2014</p>
+		    	</md-card-content>
+		    	<md-card-footer>
+		    	<h3>Javascript</h3>
+		    		<span>82% (Global Average 72%)</span>
+		    		<h3>CSS3</h3>
+		    		<span>88% (Global Average 74%)</span>
+		    	</md-card-footer>		    	
+		    </md-card>
+
+		    <!-- Expert Rating -->		    
+		    <md-card flex="20">
+		    	<img class="md-card-image" src="images/expertRating.jpg" alt="Expert Rating">
+		    	<md-card-content>
+		    		<h2>ExpertRating&reg;</h2>
+		    		<p>2009</p>
+		    	</md-card-content>
+		    	<md-card-footer>
+		    		<img src="images/logo_php5.png" alt="PHP5" height="80">
+		    	</md-card-footer>	    	
+		    </md-card>
+
+		    <!-- *** NATIONAL COMPUTER SCIENCES ACADEMY *** -->
+		    <md-card flex="20">
+		    	<md-card-content>
+		    		<h2>National Computer Sciences Academy&reg;</h2>
+		    		<p>2008 - 2009</p>
+		    		<p><img src="images/html44.gif" border="0"></p>
+		            <p><img src="http://www.ncsacademy.com/buttons/javascript4.gif"  border="0"></p>
+		            <p><img src="http://www.ncsacademy.com/buttons/php4.gif" border="0"></p>
+		            <p><img src="http://www.ncsacademy.com/buttons/pcbasics5.gif" border="0"></p>
+		            <p><img src="http://www.ncsacademy.com/buttons/cht4.gif" border="0"></p>
+		            <p><img src="http://www.ncsacademy.com/buttons/winxppro4.gif" border="0"></p>
+		    	</md-card-content>		        
+		    </md-card><!-- #ncsa -->
+	    </div>	    
+	</section><!-- #education -->
+</div>

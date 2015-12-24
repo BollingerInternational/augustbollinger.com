@@ -1,0 +1,33 @@
+<div class="animated bounceInLeft">
+	
+	<div class="modules-statics-code-view">
+	    <div class="module-header">
+	        <h1>Portfolio</h1>
+	    </div>
+	</div>	
+		
+	<!-- Header -->
+	<div>
+		<h1>August Bollinger Front-End Portfolio</h1>
+		<h3>
+			Here are some sites that are most likely still up and running. There is more on the server I am 
+			working on re-commissioning. This page is just a quick job to have something to show prospective employers. Thank you for your patience.
+		</h3>
+	</div>
+	
+	<!-- Example List -->
+	<md-list>
+		<md-list-item data-ng-repeat="item in urls">
+			<md-card>
+				<md-content layout-padding layout-wrap>
+				    <div>
+				    	<md-button flex=66 class="md-raised md-primary" href="{{item.url}}" target="_blank">
+				    		{{item.name}}
+				    	</md-button>
+				    </div>
+					<p>{{item.desc}}</p>
+				</md-content>			
+			</md-card>
+		</md-list-item>
+	</md-list>		
+</div>

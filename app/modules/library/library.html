@@ -1,0 +1,974 @@
+<div class="animated bounceInLeft">
+	<div class="modules-statics-library-view">
+	    <div class="module-header">
+	        <h1>My Library</h1>	        
+	    </div>
+	</div>	
+
+	<!-- TECHNICAL RESOURCES -->
+    <div id="techres">
+        <div>
+            <h2>Technical Resources</h2>
+            <p>
+                My personal library has well over 200 titles and is available 24-7 in the cloud via an accessibility app I developed. To protect the authors, functionality is disabled.
+            </p>
+        </div>
+
+        <!-- Personal Library -->
+        <div>
+            <div style="padding: 2em;">
+            <!-- ANGULARJS -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>AngularJS</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/angularjs.png" alt="angularJS"  height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.angular">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover" width="94">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- D3 -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>D3</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/d3js.png" alt="D3"  height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.d3">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- NODEJS -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>NodeJS</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/nodejs2.png" alt="nodeJS"  height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.node">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- Three -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>ThreeJS</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/three.png" alt="ThreeJS" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.three">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+                
+                <!-- JAVASCRIPT -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>JavaScript</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/js100x100.jpg" alt="JavaScript" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.js">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- COFFEESCRIPT -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>CoffeeScript</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/coffeescript.png" alt="CoffeeScript" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.coffeescript">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- TYPESCRIPT -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>TypeScript</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/typescript.png" alt="TypeScript" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.typescript">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- BACKBONEJS -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>BackboneJS</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/Backbone.png" alt="BackboneJS" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.backbone">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- MOBILE -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Mobile</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/mobile.png" alt="Mobile" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.mobile">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- SENCHA -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Sencha</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/sencha.jpg" alt="Sencha" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.sencha">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- CSS -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>CSS</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/css3.png" alt="css" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.css">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- NOSQL -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>NoSQL</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/nosql.png" alt="nosql" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.nosql">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- HTML -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>HTML 5</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/HTML5_220x221.png" alt="html" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.html">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- CONFIGURATION MANAGEMENT -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Configuration Management</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/config.png" alt="Configuration Management" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.configmgmt">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- CONTINUOUS INTEGRATION -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Continuous Integration</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/ci.jpg" alt="Continuous Integration" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.ci">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- PHP -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>PHP</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/php-logo.png" alt="PHP" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.php">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- PYTHON -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Python</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/python.png" alt="Python" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.python">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- BIG DATA -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Big Data</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/bigdata.png" alt="Big Data" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.bigdata">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- OPENGL/WEBGL -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>WebGL</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/webgl.jpeg" alt="WebGL" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.opengl">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- GRAPHICS -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Graphics</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/grahics.png" alt="Graphics" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.graphics">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- UNITY -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Unity</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/unity.png" alt="Unity" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.unity">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- MINECRAFT -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Minecraft</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/minecraft.png" alt="Minecraft" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.minecraft">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- LINUX/SYSADMIN -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Linux/SysAdmin</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/linux.jpg" alt="Linux" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.linux">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- NETWORKING -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Networking</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/netw.png" alt="Networking" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.netw">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- SQL -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>SQL</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/sql.jpeg" alt="SQL" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.sql">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- SECURITY -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Security</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/security.jpg" alt="Security" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.security">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>                        
+
+                <!-- RASPBERRY PI -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Raspberri Pi</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/raspberry.jpg" alt="Raspberri Pi" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.raspberry">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- TESTING -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Testing</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/testing.png" alt="Testing" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.testing">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- JAVA -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Java</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/java.jpg" alt="Java" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.java">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- BUSINESS INTELLIGENCE -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Business Intelligence</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/bi.png" alt="Business Intelligence" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.bi">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- VMWARE -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>VMware</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/vmware.jpg" alt="VMware" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.vmware">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- F# / Finance -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>F#/Finance</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/fsharp.png" alt="F#/Finance" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.fsharp">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- WORDPRESS -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>WordPress</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/wordpress.png" alt="WordPress" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.wordpress">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+
+                <!-- WINDOWS -->
+                <section>
+                    <md-card>
+                        <md-card-content>
+                            <div layout="row">
+                                <h2>Windows</h2>
+                                <span flex></span>
+                                <img class="md-button" src="images/windows.png" alt="Windows" height="100">
+                            </div>
+                            <md-list>
+                                <md-list-item class="md-2-line" data-ng-repeat="item in lib.windows">
+                                    <img class="bookimg" data-ng-src="{{item.imgUrl}}" alt="book cover">
+                                    <div flex="5"></div>
+                                    <div class="md-list-item-text" layout="column">
+                                        <h3>{{item.name}}</h3>
+                                        <h4 class="author">{{item.author}}</h4>
+                                    </div>
+                                    <div>
+                                        <md-button class="md-raised md-accent md-mini" href="#">View Book</md-button>
+                                        <md-button class="md-raised md-accent md-mini" href="#">Download Code</md-button>
+                                    </div>
+                                    <md-divider md-inset></md-divider>
+                                </md-list-item>
+                            </md-list>
+                        </md-card-content>
+                    </md-card>
+                </section>
+            </div>
+        </div><!-- #personal library -->
+    </div><!-- #technical resources -->
+</div>

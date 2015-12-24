@@ -1,0 +1,18 @@
+<!-- Individual Book Template -->
+<section layout="row">
+    <h4>{{category}}</h4>
+    <ul>
+        <li data-ng-repeat="item in mainCtrl.lib_angular" class="list-group-item">
+            <div>
+                <h3 class="col-sm-10 book-title">
+                    {{item.name}}<br>
+                    <small>{{item.author}}</small>
+                </h3>
+                <h3 class="col-sm-2">
+                    <img class="img-responsive pull-right" src="{{item.imgUrl}}">
+                </h3>
+            </div>                                
+            <div class="clearfix"></div>
+        </li>
+    </ul>
+</section>
