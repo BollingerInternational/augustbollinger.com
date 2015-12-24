@@ -1,6 +1,7 @@
 # Compiled Server Files
 dist
 reports
+app/assets
 
 # Third Party Dependencies
 bower_components
