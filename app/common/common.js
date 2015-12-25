@@ -14,7 +14,7 @@ require('angular-sanitize');
 require('domready/ready');
 require('lodash');
 require('restangular');
-require('d3');
+//require('d3');
 
 module.exports = angular.module('common',
     [
@@ -28,7 +28,7 @@ module.exports = angular.module('common',
         'ngResource',
         'ngSanitize',
         'restangular',
-        'd3',
+  //      'd3',
         require('./elements/header').name,
         require('./elements/footer').name,
         require('./constants').name,

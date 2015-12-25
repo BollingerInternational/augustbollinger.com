@@ -9,6 +9,7 @@ module.exports = angular.module('modules', [
     require('./pg').name,
     require('./php').name,
     require('./portfolio').name,
+    require('./react').name,
     require('./resume').name,
     require('./statics').name // Used for static content pages like "About", "Privacy Policy", "404", etc.
 ])
