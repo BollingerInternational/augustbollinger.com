@@ -9,7 +9,7 @@ function jsRoutes($stateProvider) {
         data: {
             moduleClasses: 'statics', // assign a module class to the <body> tag
             pageClasses: 'js', // assign a page-specific class to the <body> tag
-            pageTitle: 'JavaScripts Samples', // set the title in the <head> section of the index.html file
+            pageTitle: 'JavaScript Samples', // set the title in the <head> section of the index.html file
             pageDescription: 'My JavaScript samples' // meta description in <head>
         }
     };
