@@ -92,14 +92,14 @@ function LibraryCtrl($scope, $http) {
         {name: 'gnuplot Cookbook', author: 'Lee Phillips', imgUrl: 'https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/thumbview/7249OS_gnuplot%20cookbook_cov.jpg', bookUrl: '', codeUrl: ''},
         {name: 'MATLAB Graphics and Data Visualization Cookbook', author: 'Nivedita Majumdar, Swapnonil Banerjee', imgUrl: 'https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/thumbview/3165OT.jpg', bookUrl: '', codeUrl: ''}
         // {name: '', author: '', imgUrl: '', bookUrl: '', codeUrl: ''},
-    ];    
+    ];
     $scope.lib.html = [
         {name: 'HTML5 Game Development with ImpactJS', author: 'Davy Cielen, Arno Meysman', imgUrl: 'https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/thumbview/4568OT_0.jpg', bookUrl: '', codeUrl: ''},
         {name: 'HTML5 Canvas Cookbook', author: 'Eric Rowell', imgUrl: 'https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/thumbview/1369EXP_HTML5%20Canvas%20Cookbook_cov.jpg', bookUrl: '', codeUrl: ''},
         {name: 'HTML5 Web Application Development By Example : Beginner\'s guide', author: 'J.M. Gustafson', imgUrl: 'https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/thumbview/5947OTcov.jpg', bookUrl: '', codeUrl: ''},
         {name: 'HTML5 Graphing and Data Visualization Cookbook', author: 'Ben Fhala', imgUrl: 'https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/thumbview/3707OT.jpg', bookUrl: '', codeUrl: ''}
         // {name: '', author: '', imgUrl: '', bookUrl: '', codeUrl: ''},
-    ];    
+    ];
     $scope.lib.java = [
         {name: 'Maven for Eclipse', author: 'Sanjay Shah', imgUrl: 'https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/thumbview/7122OS_cov.jpg', bookUrl: '', codeUrl: ''},
         {name: 'R Statistical Application Development by Example Beginner\'s Guide', author: 'Prabhanjan Narayanachar Tattar', imgUrl: 'https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/thumbview/9441OS_cov.jpg', bookUrl: '', codeUrl: ''},
