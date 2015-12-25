@@ -1,6 +1,6 @@
 'use strict';
 // Controller naming conventions should start with an uppercase letter
-function PortfolioCtrl ($scope) {
+function PortfolioCtrl($scope) {
     $scope.testVar = 'Hello from PortfolioController.js';
     $scope.urls = [
         {
