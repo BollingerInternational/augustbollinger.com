@@ -1,4 +1,4 @@
-<div class="animated bounceInLeft">
+<div class="animated bounceInLeft md-padding">
 	
 	<div class="modules-statics-code-view">
 	    <div class="module-header">
@@ -7,16 +7,116 @@
 	    </div>	    
 	</div>
 
-	<md-card>
-		<h2>Singleton</h2>
-		<p>Singletons are useful in situations where system-wide actions need to be coordinated from a single central place.</p>
-	</md-card>
-	<md-card><h2>Factory</h2></md-card>
-	<md-card><h2>Decorator</h2></md-card>
-	<md-card><h2>Observer</h2></md-card>
-	<md-card><h2>Closure</h2></md-card>
-	<md-card><h2>Module</h2></md-card>
+	<h2>Creational Patterns</h2>
+	    
+	    <!-- ***** ABSTRACT FACTORY ***** -->
+	    <md-card class="md-padding">
+	        <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Abstract Factory</span><br>
+                    <span class="md-subhead graydout">A method to create kits of objects without knowing the concrete types of the objects.</span>
+                </md-card-title-text>
+	        </md-card-title>
+	        <md-card-content>
+	            <pre>Content goes here</pre>
+	        </md-card-content>
+	    </md-card>
 
-	<md-card><h2><a href="https://github.com/BollingerInternational/augustbollinger.com/">This Websites Code &amp; Directory Structure</a></h2></md-card>
+	    <md-card class="md-padding">
+	        <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Builder</span><br>
+                    <span class="md-subhead graydout">
+                        Builders need not return a fully realized object. This means that you can create 
+                        a builder that partially hydrates an object, then allows the object to be passed 
+                        onto another builder for it to finish. This approach allows you to divide the work 
+                        of building an object amongst several classes with limited responsibility.
+                    </span>
+                </md-card-title-text>
+	        </md-card-title>
+	        <md-card-content>
+	            <pre>Content goes here</pre>
+	        </md-card-content>
+	    </md-card>
+
+	    <md-card class="md-padding">
+	        <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Factory Method</span><br>
+                    <span class="md-subhead graydout"></span>
+                </md-card-title-text>
+	        </md-card-title>
+	        <md-card-content>
+	            <pre>Content goes here</pre>
+	        </md-card-content>
+	    </md-card>
+
+	    <md-card class="md-padding">
+	        <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Singleton</span><br>
+                    <span class="md-subhead graydout">Singletons are useful in situations where system-wide actions need to be coordinated from a single central place.</span>
+                </md-card-title-text>
+	        </md-card-title>
+	        <md-card-content>
+	            <pre>var Singleton = (function () {
+    var instance;
+
+    function createInstance() {
+        var object = new Object("I am the instance");
+        return object;
+    }
+
+    return {
+        getInstance: function () {
+            if (!instance) {
+                instance = createInstance();
+            }
+            return instance;
+        }
+    }
+})();
+	            </pre>
+	        </md-card-content>
+	    </md-card>
+
+	    <md-card class="md-padding">
+	        <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Prototype</span><br>
+                    <span class="md-subhead graydout"></span>
+                </md-card-title-text>
+	        </md-card-title>
+	        <md-card-content>
+	            <pre>Content goes here</pre>
+	        </md-card-content>
+	    </md-card>
+
+	<h2>Patterns</h2>
+
+	<h2>Patterns</h2>
+
+	<md-card class="md-padding">
+	    <h2>
+	        <a href="https://github.com/BollingerInternational/augustbollinger.com/" target="_blank">
+	            This Websites Code &amp; Directory Structure
+	        </a>
+	    </h2>
+	</md-card>
+
+	<md-card class="md-padding">
+	        <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Title</span><br>
+                    <span class="md-subhead graydout">Description</span>
+                </md-card-title-text>
+	        </md-card-title>
+	        <md-card-content>
+	            <pre>Content goes here</pre>
+	        </md-card-content>
+	    </md-card>
+
+
+
 
 </div>
