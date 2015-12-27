@@ -35,7 +35,17 @@
                 </md-card-title-text>
 	        </md-card-title>
 	        <md-card-content>
-	            <pre>Content goes here</pre>
+	            <pre>var Builder = (function () {
+    function Builder() {}
+
+    Builder.prototype.build = function (builder) {
+        return builder.build();
+    };
+
+    return Builder;
+})();
+
+blj.Builder = Builder;</pre>
 	        </md-card-content>
 	    </md-card>
 
@@ -43,11 +53,25 @@
 	        <md-card-title>
                 <md-card-title-text>
                     <span class="md-headline">Factory Method</span><br>
-                    <span class="md-subhead graydout"></span>
+                    <span class="md-subhead graydout">
+                    	The Factory Method pattern allows a class to request a new instance of an interface without the class making decisions about which implementation of the interface to use. The factory may use some strategy to select which implementation to return. Sometimes, this strategy is simply to take a string parameter or to examine some global setting to act as a switch.
+                    </span>
                 </md-card-title-text>
 	        </md-card-title>
 	        <md-card-content>
-	            <pre>Content goes here</pre>
+	            <pre>var Factory = (function () {
+    function Factory() {}
+
+    Factory.Build = function (name) {
+        if (name === "august") return new August();
+
+        if (name === "employer") return new Employer();
+
+        return new DefaultClass();
+    };
+
+    return Factory;
+})();</pre>
 	        </md-card-content>
 	    </md-card>
 
