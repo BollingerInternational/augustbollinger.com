@@ -146,11 +146,63 @@ member.likessushi = true;</pre>
 	        </md-card-content>
 	    </md-card>
 
+	
+    <!-- ***** STRUCTURAL PATTERNS ***** -->
 	<h2>Structural Patterns</h2>
+
 	<md-card class="md-padding">
         <md-card-title>
             <md-card-title-text>
-                <span class="md-headline">Title</span><br>
+                <span class="md-headline">Adapter</span><br>
+                <span class="md-subhead graydout">
+                    The adapter is a very powerful pattern to simplify code interfaces. Massaging interfaces to better match a requirement is useful in countless places. The pattern is certainly useful in JavaScript. Applications tend to make use of a large number of small libraries. By wrapping up these libraries in adapters, You're able to limit the number of places you interact with the libraries directly; this means that the libraries can easily be replaced.
+                </span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <pre>var Adapter = (function () {
+    function Adapter() {
+        this._complex = new ComplexClass();
+    }
+
+    Adapter.prototype.walkFast = function () {
+        this._complex.setSpeed = 50;
+        this._complex.setTorsoAngle = 15;
+    };
+
+    Adapter.prototype.walkSlow = function () {
+        this._complex.setSpeed = 25;
+        this._complex.setTorsoAngle = 0;
+    };
+
+    Adapter.prototype.run = function () {
+        this._complex.setSpeed = 100;
+        this._complex.setTorsoAngle = 30;
+    };
+
+    return Adapter;
+});</pre>
+        </md-card-content>
+    </md-card>
+
+    <md-card class="md-padding">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Bridge</span><br>
+                <span class="md-subhead graydout">
+                    The bridge pattern takes the adapter pattern to a new level. Given an interface, we can build multiple adapters, each one of which acts as an intermediary to a different implementation.
+                </span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <pre>Content goes here</pre>
+        </md-card-content>
+    </md-card>
+
+    <md-card class="md-padding">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Composite</span><br>
                 <span class="md-subhead graydout">Description</span>
             </md-card-title-text>
         </md-card-title>
@@ -159,7 +211,58 @@ member.likessushi = true;</pre>
         </md-card-content>
     </md-card>
 
+    <md-card class="md-padding">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Decorator</span><br>
+                <span class="md-subhead graydout">Description</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <pre>Content goes here</pre>
+        </md-card-content>
+    </md-card>
+
+    <md-card class="md-padding">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Façade</span><br>
+                <span class="md-subhead graydout">Description</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <pre>Content goes here</pre>
+        </md-card-content>
+    </md-card>
+
+    <md-card class="md-padding">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Flyweight</span><br>
+                <span class="md-subhead graydout">Description</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <pre>Content goes here</pre>
+        </md-card-content>
+    </md-card>
+
+    <md-card class="md-padding">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Proxy</span><br>
+                <span class="md-subhead graydout">Description</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <pre>Content goes here</pre>
+        </md-card-content>
+    </md-card>
+
+
+    <!-- ***** BEHAVIORAL PATTERNS ***** -->
 	<h2>Behavioral Patterns</h2>
+	
 	<md-card class="md-padding">
         <md-card-title>
             <md-card-title-text>
