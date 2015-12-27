@@ -79,7 +79,11 @@ blj.Builder = Builder;</pre>
 	        <md-card-title>
                 <md-card-title-text>
                     <span class="md-headline">Singleton</span><br>
-                    <span class="md-subhead graydout">Singletons are useful in situations where system-wide actions need to be coordinated from a single central place.</span>
+                    <span class="md-subhead graydout">
+                        Singleton is used when a global variable is desirable, but Singleton provides 
+                        protection against accidentally creating multiple copies of a complex object. 
+                        It also allows for the deferral of object instantiation until the first use. The Singleton pattern acts as a wrapper around an instance of the class and the Singleton itself lives as a global variable. When accessing the instance, we simply ask Singleton for the current instance of the wrapped class. If the class does not yet exist within the Singleton, it is common to create a new instance at that time.
+                    </span>
                 </md-card-title-text>
 	        </md-card-title>
 	        <md-card-content>
@@ -108,17 +112,65 @@ blj.Builder = Builder;</pre>
 	        <md-card-title>
                 <md-card-title-text>
                     <span class="md-headline">Prototype</span><br>
-                    <span class="md-subhead graydout"></span>
+                    <span class="md-subhead graydout">
+                    	The Prototype pattern allows for a complex object to be constructed only once and
+                    	is then cloned into any number of objects that vary only slightly. Copying existing objects can be a very useful pattern. There are numerous cases when being able to duplicate a constructed object is handy. For instance, maintaining a history of the state of an object is easily done by saving previous instances created by leveraging some sort of cloning.
+                    </span>
                 </md-card-title-text>
 	        </md-card-title>
 	        <md-card-content>
-	            <pre>Content goes here</pre>
+	            <pre>var Bollinger = (function () {
+    function Bollinger() {}
+
+    Bollinger.prototype.clone = function () {
+        var clone = new Bollinger();
+        for (var attr in this) {
+            clone[attr] = this[attr];
+        }
+
+        return clone;
+    };
+
+    return Bollinger;
+})();
+
+var august = new Bollinger();
+august.javascript = true;
+august.nodejs = true;
+august.angularjs = true;
+august.smalltalk = false;
+
+var member = august.clone();
+member.reactjs = true;
+member.likessushi = true;</pre>
 	        </md-card-content>
 	    </md-card>
 
-	<h2>Patterns</h2>
+	<h2>Structural Patterns</h2>
+	<md-card class="md-padding">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Title</span><br>
+                <span class="md-subhead graydout">Description</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <pre>Content goes here</pre>
+        </md-card-content>
+    </md-card>
 
-	<h2>Patterns</h2>
+	<h2>Behavioral Patterns</h2>
+	<md-card class="md-padding">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Title</span><br>
+                <span class="md-subhead graydout">Description</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <pre>Content goes here</pre>
+        </md-card-content>
+    </md-card>
 
 	<md-card class="md-padding">
 	    <h2>
@@ -129,18 +181,14 @@ blj.Builder = Builder;</pre>
 	</md-card>
 
 	<md-card class="md-padding">
-	        <md-card-title>
-                <md-card-title-text>
-                    <span class="md-headline">Title</span><br>
-                    <span class="md-subhead graydout">Description</span>
-                </md-card-title-text>
-	        </md-card-title>
-	        <md-card-content>
-	            <pre>Content goes here</pre>
-	        </md-card-content>
-	    </md-card>
-
-
-
-
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Title</span><br>
+                <span class="md-subhead graydout">Description</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <pre>Content goes here</pre>
+        </md-card-content>
+    </md-card>
 </div>
