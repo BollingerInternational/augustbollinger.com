@@ -1,4 +1,5 @@
-<div class="space30">&nbsp;</div>
+<div class="space120">&nbsp;</div>
+
 <md-card class="animated bounceInLeft md-padding modules-statics-about-view">
     <md-card-title class="module-header">
         <md-card-title-text>
@@ -7,8 +8,11 @@
         </md-card-title-text>
 	        <md-content>	        	
 	        	<md-list>
-	        		<md-list-item data-ng-repeat="item in aboutme">{{item.item}}</md-list-item>
+	        		<md-list-item class="md-3-line md-list-item-text" data-ng-repeat="item in aboutme">
+	        		    {{item.item}}
+	        		</md-list-item>
 	        	</md-list>
 	        </md-content>	        
 	</md-card-title>	 
 </md-card>
+
