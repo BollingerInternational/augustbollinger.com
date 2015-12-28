@@ -12,7 +12,7 @@ function ResumeCtrl($scope) {
         {desc: 'Practicing regular and continued self-education'},
         {desc: 'Responsible for the following assets: papaganja.com, surfline.com'},
         {desc: 'Technologies used: Linux, Apache, MySQL, PHP, JavaScript, AWS, S3, DynamoDB, Lambda, Firebase, AngularFire, AngularJS, NodeJS, Express, Phantom, Casper, Spooky, LoDash, Leaflet, D3, Three.js, Prerender.io, OpenStreetMaps API, Browserify, Gulp, Yeoman, Spin.js, NoSQL, AJAX, REST, LESS, jQuery, HTML, CSS, Design patterns.'}
-    ];    
+    ];
     $scope.soap = [
         {desc: 'Direct involvement in New Business Development meetings with clients at client locations and onboarding of clients.'},
         {desc: 'Responsible for managing client interactions when building/editing websites to their specifications.'},
@@ -25,7 +25,7 @@ function ResumeCtrl($scope) {
         {desc: 'Work both independently with little supervision and in a team environment'},
         {desc: 'Practicing regular and continued self-education'},
         {desc: 'Responsible for the following assets: aisinnsurance.com, completesenior.com, tiletac.com, shield-clothiing.com, alpha-greek.com, newportwineandfood.com, econoair.com, lakintire.com, mulberry.com, negotiateyourtaxdebt.com, staddus.com'}
-    ];    
+    ];
     $scope.citizenhawk = [
         {desc: 'Designed, developed and implemented the case management module of the companies HawkNest© Application. It provided a means to persist case data as well as record progress in processes and also provided a private video conferencing solution.'},
         {desc: 'Commissioned a remote LAMP stack and installed NodeJS on it to act as primary solution to harvesting WHOIS data.'},
@@ -47,7 +47,7 @@ function ResumeCtrl($scope) {
         {desc: 'Practicing regular and continued self-education.'},
         {desc: 'Responsible for the following assets: citizenhawk.com, HawkNest, HawkZone, Case Management, Salesforce.com.'},
         {desc: 'Technologies used: Linux, Apache, MySQL, PHP, jQuery, Sencha ExtJS, Sencha Touch, NodeJS, Phantom, Salesforce.com, Force.com, Apex, OpenTok.'},
-    ];    
+    ];
     $scope.bi = [
         {desc: 'Design/Develop/Implement scalable and maintainable commercial web-based applications.'},
         {desc: 'AWS (Amazon Web Services) resource/system design and implementation'},
