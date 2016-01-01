@@ -2,6 +2,7 @@
 dist
 reports
 app/assets
+report
 
 # Third Party Dependencies
 bower_components
